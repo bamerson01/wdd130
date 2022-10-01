@@ -4,7 +4,7 @@
 }
 nav a {
     text-align: center;
-    color: #E6410F;
+    color: #F9F5F1;
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
@@ -26,44 +26,44 @@ body {
     background-color: #F9F5F1;
 }
 header {
-    color: #2E2524;
-    background-color: #F9F5F1;
+    color: #F9F5F1;
+    background-color: #549339;
 }
 nav a:hover {
-    color: #F9F5F1;
-    background-color: #E6410F;
+    color: #549339;
+    background-color: #F9F5F1;
 }
 .book, .join {
-    color: #2E2524;
-    background-color: #F9F5F1;
+    color: #F9F5F1;
     text-decoration: none;
+    background-color: #238080;
 }
 .book:hover, .join:hover {
-    color: #238080;
-    background-color: #F9F5F1;
+    color: #F9F5F1;
+    background-color: #268C8C;
 }
 .msg {
-    color: #2E2524;
-    background-color: #F9F5F1;
+    color: #F9F5F1;
+    background-color: #584C4B;
 }
 footer {
     color: #F9F5F1;
     background-color: #2E2524;
 }
 .home-title {
-    color: #2E2524;
+    color: #E6410F;
 }
 h4 {
     color: #2E2524;
 }
 .msg h2 {
-    color: #2E2524;
+    color: #F9F5F1;
 }
 .msg p {
-    color: #2E2524;
+    color: #F9F5F1;
 }
 footer h3 {
-    color: #2E2524;
+    color: #F9F5F1;
 }
 footer a {
     color: #F9F5F1;
