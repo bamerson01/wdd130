@@ -47,6 +47,8 @@ h1 {
 h2 {
     font-size: 36px;
     color: #00CD9E;
+    padding: 10px 0px;
+    margin: 20px 0px;
 }
 
 a {
@@ -70,6 +72,10 @@ img {
     height: auto;
 }
 
+p { 
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
 
 .header {
     display: grid;
@@ -427,13 +433,41 @@ ul {
 }
 
 
+.pic-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, .5fr);
+    grid-gap: 50px;
+}
 
+.photo {
+    background-color: #7B51FF;
+    color: #fff;
+    max-width: 1280;
+    margin: 100px;
+    padding: 100px;
+}
 
+.gear-box {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr) 1fr;
+    grid-gap: 50px;
+    margin-bottom: 50px;
+}
 
+.col-a {
+    grid-column: 2/3;
+    background-color: #00CD9E;
+    padding: 50px;
+    color: #fff;
+}
 
-
-
-
+.col-b {
+    grid-column: 3/4;
+    background-color: #00CD9E;
+    padding: 50px;
+    color: #fff;
+}
 
 @media all and (max-device-width: 1440px){
     .hero-main {
