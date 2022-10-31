@@ -222,7 +222,7 @@ p {
     box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
     text-align: left;
     padding: 50px 150px;
-    grid-column: 3/10;
+    grid-column: 3/11;
 }
 
 .intro-main {
@@ -245,22 +245,22 @@ p {
 .main-pic{
     z-index: -1;
     opacity: .3;
- /*   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);*/
     grid-column: 1/13;
     grid-row: 1;
 }
 
 .about-me {
     background-color: #8f98a3;
-    margin: 75px;
-    padding: 50px;
+    margin: 50px;
+    padding: 25px;
     color:#FFF;
-    grid-column: 6/11;
+    grid-column: 5/13;
     grid-row: 1;
 }
 
 .about-me h2 {
     color:#FFF;
+    margin: 0px;
 }
 
 .fam {
@@ -273,32 +273,34 @@ p {
 .fam-text {
     color: #FFF;
     background-color: #7B51FF;
-    grid-column: 3/7;
-    padding: 75px;
+    grid-column: 2/7;
+    padding: 50px;
 }
 
 .fam-img {
-    grid-column: 7/11;
+    grid-column: 7/12;
 }
 
 .next-chapter {
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(9, 100px);
+    grid-template-rows: repeat(8, 100px);
 }
 
 .next-bg {
     background-color: #00cd9e;
-    grid-column: 3/11;
+    grid-column: 2/11;
     grid-row: 1/7;
     z-index: -1;
 }
+
 .next-ch-text {
     color: #FFF;
-    grid-column: 3/8;
+    grid-column: 2/8;
     grid-row: 1;
-    padding: 75px 75px;
+    padding: 50px 50px;
+    margin: 0px;
 }
 
 .mfl-img {
@@ -418,7 +420,7 @@ p {
     padding: 50px;
     background-color: #00CD9E;
     color: #FFF;
-    grid-column: 3/7;
+    grid-column: 2/7;
     grid-row: 2/10;
 }
 
